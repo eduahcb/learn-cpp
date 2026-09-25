@@ -1,5 +1,5 @@
-
 #include <iostream>
+
 int main() {
 
     for (int index = 0; index < 100; index++) {
