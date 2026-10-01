@@ -7,11 +7,11 @@ int main() {
 
     double prices[] = {5.00, 7.50, 9.99, 15.99};
 
-    for (const std::string& car : cars) {
-        std::cout << car << "\n";
-    }
+    int elements = sizeof(prices) / sizeof(double);
 
-    std::cout << prices[1];
+    for (int index = 0; index < elements; index++) {
+        std::cout << prices[index] << "\n";
+    }
 
     return 0;
 }
